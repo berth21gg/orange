@@ -78,11 +78,11 @@
                         </ul>
                     </div>
                     <div class="logo text-center">
-                        <div id="fh5co-logo"><a href="index.html">Orange.</a></div>
+                        <div id="fh5co-logo"><a href="/">Orange.</a></div>
                     </div>
                     <div class="right-menu text-left menu-1">
                         <ul>
-                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="/blog">Blog</a></li>
                             <li class="has-dropdown">
                                 <a href="#">Tools</a>
                                 <ul class="dropdown">
@@ -101,9 +101,7 @@
             </div>
         </nav>
 
-        <div>
-            @yield('main_content')
-        </div>
+        <div>@yield('main_content')</div>
 
 
         <div id="fh5co-started">

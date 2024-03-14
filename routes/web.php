@@ -15,3 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [OrangeController::class,'index'])->name('home');
+Route::get('/blog', [OrangeController::class,'blog'])->name("blog");
+Route::get('/detail_post/{id_post}', [OrangeController::class, 'detail_post'])->name("detail_post");
+Route::post('/detail_post/{post_id}/comment', [OrangeController::class,"addComment"])->name("addComment");
